@@ -20,5 +20,13 @@ public class ReverseString {
             str2=str2+sarr[i]+" ";
         }
         System.out.println(str2);
+
+        String st1="Rohit Soni";
+        String st2="";
+        for(int i=st1.length()-1;i>=0;i--)
+        {
+            st2=st2+st1.charAt(i);
+        }
+        System.out.println(st2);
     }
 }
