@@ -8,6 +8,10 @@ class Aeroplane1{
     {
         System.out.println("ready to taking off");
     }
+    public void alert()// inheritd inheritanc
+    {
+        System.out.println("alert...");
+    }
 }
 class cargoPlane1 extends Aeroplane1{
     public void fly()
@@ -18,6 +22,7 @@ class cargoPlane1 extends Aeroplane1{
     {
         System.out.println("It needs short runway");
     }
+
 
 }
 class passangerPlane1 extends Aeroplane1{
