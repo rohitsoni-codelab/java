@@ -13,7 +13,7 @@ public class palindromString {
         //     str2 = str2 + str.charAt(i);
         // }
 
-        StringBuilderExample str2=new StringBuilderExample(str).reverse();
+        StringBuilder str2=new StringBuilder(str).reverse();
 
         
         if (str2.equals(str)) {
