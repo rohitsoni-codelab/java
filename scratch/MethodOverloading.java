@@ -1,6 +1,6 @@
 package scratch;
 
-class Calc
+class Calc1
 {
     public int add(int a,int b)
     {
@@ -23,7 +23,7 @@ public class MethodOverloading {
 
     public static void main(String[] args)
     {
-        Calc obj1= new Calc();
+        Calc1 obj1= new Calc1();
         int res1=obj1.add(5,4);
         System.out.println(res1);
         System.out.println(obj1.add(5,6,3));
