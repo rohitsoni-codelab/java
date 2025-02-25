@@ -2,6 +2,15 @@ package scratch;
 
 import java.util.Scanner;
 
+public class Thread1 
+{
+        public static void main(String[] args) {
+        Calc t1 = new Calc();
+        Message t2 = new Message();
+        t1.start();
+        t2.start();
+    }
+}
 class Calc extends Thread {
     public void run() {
         System.out.println("-----------------CALCULATION-----------------");
@@ -25,17 +34,11 @@ class Calc extends Thread {
 class Message extends Thread {
     public void run() {
         System.out.println("-------------Messaging part-------------");
+        for(int i=0;i<=5;i++)
+        {
+            System.out.println("focus....");
+        }
         System.out.println("----------------------------------------");
     }
 }
 
-public class Thread1 {
-    public static void main(String[] args) {
-        Calc t1 = new Calc();
-        Message t2 = new Message();
-        t1.start();
-        t2.start();
-
-    }
-
-}
