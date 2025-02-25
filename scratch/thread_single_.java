@@ -25,6 +25,7 @@ class Mythread1 extends Thread{
         int res;try
         {
             res = num1 / num2;
+            
             System.out.print("Value =" + res);
         }catch(
         ArithmeticException e)
