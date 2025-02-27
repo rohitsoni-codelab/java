@@ -43,17 +43,17 @@ class Library implements Runnable {
             {
 
                 Thread.sleep(3000);
-                synchronized(res1)
+                synchronized(res3)
                 {
-                    System.out.println(name+" occupied resource 1");
+                    System.out.println(name+" occupied resource 3");
                     Thread.sleep(3000);
                     synchronized(res2)
                     {
                         System.out.println(name+" occupied resource 2");
                         Thread.sleep(3000);
-                        synchronized(res3)
+                        synchronized(res1)
                         {
-                            System.out.println(name+" occupied resource 3");
+                            System.out.println(name+" occupied resource 1");
                             Thread.sleep(3000);
                         }
                     }
