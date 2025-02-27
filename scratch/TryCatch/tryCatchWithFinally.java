@@ -1,4 +1,4 @@
-package scratch;
+package scratch.TryCatch;
 import java.util.*;
 public class tryCatchWithFinally {
     public static void main(String[] args) {

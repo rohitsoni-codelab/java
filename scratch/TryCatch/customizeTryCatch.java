@@ -1,4 +1,4 @@
-package scratch;
+package scratch.TryCatch;
 
 public class customizeTryCatch {
     public static void main(String[] args) {

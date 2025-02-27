@@ -1,6 +1,8 @@
     package scratch;
 
-    class Calc {
+import scratch.Thread.Calc;
+
+class Calc {
         public int add(int []arr)
         {
             int res=0;

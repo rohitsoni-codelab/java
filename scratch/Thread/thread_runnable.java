@@ -1,4 +1,4 @@
-package scratch;
+package scratch.Thread;
 
 import java.util.*;
 
