@@ -1,8 +1,6 @@
 package scratch.Date_Time;
-import java.time.LocalDate;
-import java.time.LocalTime;
 import java.util.Date;//outdated...
-import java.util.time.*;
+import java.time.*;
 
 public class Date1 {
     public static void main(String[] args) {
