@@ -48,3 +48,8 @@ public class constructorOverloading {
     }
     
 }
+
+
+/*
+ * ek package me do same name ka class nhi ho sakta h
+ */
